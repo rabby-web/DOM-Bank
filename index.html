@@ -8,6 +8,58 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <h2>Bank</h2>
+    <h2 class="text-4xl p-2 text-center font-semibold text-violet-800">
+      Welcome to my personal <span class="text-orange-800">Bank</span>
+    </h2>
+    <section class="w-1/2 mx-auto bg-purple-400 rounded-2xl">
+        <!-- Left column container-->
+        <div class="px-4 md:px-0">
+            <div class="md:mx-6 md:p-12">
+              <!--Logo-->
+              <div class="text-center">
+                <img
+                  class="mx-auto w-48"
+                  src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                  alt="logo" />
+                <h4 class="mb-12 mt-1 pb-1 text-2xl font-semibold">
+                  Please Log In
+                </h4>
+              </div>
+              <form>
+                <div class="relative mb-4" data-te-input-wrapper-init>
+                  <input
+                    type="text"
+                    class="peer block min-h-[auto] w-2/3 mx-auto bg-white rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
+                    id="exampleFormControlInput1"
+                    placeholder="Username" />
+                </div>
+
+                <!--Password input-->
+                <div class="relative mb-4" data-te-input-wrapper-init>
+                  <input
+                    type="password"
+                    class="peer block min-h-[auto] w-2/3 mx-auto bg-white rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
+                    id="exampleFormControlInput11"
+                    placeholder="Password" />
+                </div>
+
+                <!--Submit button-->
+                <div class="mb-12 pb-1 pt-1 text-center">
+                  <button
+                    class="mb-3 inline-block w-28 mx-auto rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
+                    type="button"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                    style="
+                      background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+                    ">
+                    Log in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+    </section>
+    </div>
   </body>
 </html>
