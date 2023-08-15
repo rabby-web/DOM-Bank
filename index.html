@@ -30,10 +30,11 @@
             <form>
               <div class="relative mb-4" data-te-input-wrapper-init>
                 <input
-                  type="text"
                   class="peer block min-h-[auto] w-2/3 mx-auto bg-white rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
-                  id="exampleFormControlInput1"
-                  placeholder="Username"
+                  type="email"
+                  placeholder="Email"
+                  name=""
+                  id="email-field"
                 />
               </div>
 
@@ -42,7 +43,7 @@
                 <input
                   type="password"
                   class="peer block min-h-[auto] w-2/3 mx-auto bg-white rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
-                  id="exampleFormControlInput11"
+                  id="password-field"
                   placeholder="Password"
                 />
               </div>
@@ -50,6 +51,7 @@
               <!--Submit button-->
               <div class="mb-12 pb-1 pt-1 text-center">
                 <button
+                  id="btn-submit"
                   class="mb-3 inline-block w-28 mx-auto rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
                   type="button"
                   data-te-ripple-init
@@ -72,5 +74,8 @@
         </div>
       </section>
     </main>
+
+    <!-- script -->
+    <script src="js/login.js"></script>
   </body>
 </html>
