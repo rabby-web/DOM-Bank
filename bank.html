@@ -31,7 +31,7 @@
             class="text-center p-5 border border-pink-500 rounded-lg m-3 bg-sky-300"
           >
             <h3 class="text-2xl font-bold text-fuchsia-800">Withdrawal</h3>
-            <h2 class="text-4xl font-bold text-white">00</h2>
+            <h2 id="withdraw" class="text-4xl font-bold text-white">00</h2>
           </div>
           <div
             class="text-center p-5 border border-pink-500 rounded-lg m-3 bg-sky-300"
@@ -61,12 +61,16 @@
             class="text-center p-5 border border-pink-500 rounded-lg m-3 bg-indigo-400"
           >
             <input
+              id="withdraw-filed"
               type="text"
               placeholder="Withdrawal"
               class="input input-bordered input-secondary w-full max-w-xs"
             />
             <br />
-            <button class="btn btn-outline btn-secondary mt-4">
+            <button
+              id="withdraw-btn"
+              class="btn btn-outline btn-secondary mt-4"
+            >
               Withdrawal
             </button>
           </div>
@@ -75,6 +79,7 @@
     </main>
 
     <!-- script -->
-    <script src="js/widthdraw.js"></script>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
   </body>
 </html>
